@@ -17,5 +17,6 @@
 		
 	<!-- 用户服务接口 -->
 	<dubbo:service interface="com.pyt.facade.user.service.PmsUserFacade" ref="pmsUserFacade" />
-
+	<dubbo:service interface="com.pyt.facade.user.service.DemoService" ref="demoService" />
+	
 </beans>  
