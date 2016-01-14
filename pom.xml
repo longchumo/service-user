@@ -33,15 +33,15 @@
 				</includes>
 			</resource>
 		
-		<!-- 结合com.alibaba.dubbo.container.Main -->
-		<resource>
-			<targetPath>${project.build.directory}/classes/META-INF/spring</targetPath>
-			<directory>src/main/resources/spring</directory>
-			<filtering>true</filtering>
-			<includes>
-				<include>spring-context.xml</include>
-			</includes>
-		</resource>
+			<!-- 结合com.alibaba.dubbo.container.Main -->
+			<resource>
+				<targetPath>${project.build.directory}/classes/META-INF/spring</targetPath>
+				<directory>src/main/resources/spring</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>spring-context.xml</include>
+				</includes>
+			</resource>
 		</resources>
 		<pluginManagement>
 			<plugins>
